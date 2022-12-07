@@ -1,0 +1,316 @@
+/** @format */
+
+.landing_page {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background: #01204c;
+}
+
+.ellipse1 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 314.23px;
+  height: 548.69px;
+  left: 116px;
+  top: -244.95px;
+
+  background: #a260f3;
+  border: 0.66978px solid #000000;
+  filter: blur(217.679px);
+  transform: rotate(-38.84deg);
+}
+
+.ellipse2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 421.96px;
+  height: 479.56px;
+  left: -101.81px;
+  top: 462.82px;
+
+  background: #794cec;
+  border: 0.66978px solid #000000;
+  filter: blur(241.121px);
+}
+
+.ellipse3 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 163.43px;
+  height: 384.93px;
+  left: 907px;
+  top: 690.55px;
+
+  background: #1f62ea;
+  border: 0.66978px solid #000000;
+  filter: blur(107.165px);
+  transform: rotate(-74.59deg);
+}
+
+.ellipse4 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 203.61px;
+  height: 479.56px;
+  left: 1597px;
+  top: 328px;
+
+  background: #794cec;
+  border: 0.66978px solid #000000;
+  filter: blur(241.121px);
+}
+
+.ellipse5 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 554.34px;
+  height: 554.34px;
+  left: 221.76px;
+  top: 156.75px;
+
+  opacity: 0.3;
+  border: 0.66978px solid #ffffff;
+  border-radius: 50%;
+  transform: matrix(0.79, -0.04, -1.2, 1, 0, 0);
+}
+
+.howDiv {
+  position: absolute;
+  width: 1800px;
+  height: 337px;
+  left: 96px;
+  bottom: 3rem;
+
+  background: transparent;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.howBigFont {
+  position: absolute;
+  width: max-content;
+  height: 55px;
+  left: 10px;
+  top: 10px;
+
+  font-family: "ABeeZee";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+
+  /* or 116% */
+  letter-spacing: 0.133956px;
+  text-transform: capitalize;
+
+  color: #f9eeee;
+
+  mix-blend-mode: normal;
+}
+
+.howsmallFont {
+  position: absolute;
+  width: 1716px;
+  height: 207px;
+  left: 10px;
+  top: 60px;
+
+  font-family: "ABeeZee";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 56px;
+
+  /* or 233% */
+  letter-spacing: 0.133956px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.Discover {
+  position: absolute;
+  width: max-content;
+  height: 118px;
+  left: 96px;
+  top: 183px;
+
+  font-family: "ABeeZee";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48.2242px;
+  line-height: 56px;
+
+  /* or 116% */
+  letter-spacing: 0.133956px;
+  text-transform: capitalize;
+
+  background: linear-gradient(180deg, #ffffff 0%, #b31ccf 149.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+
+  mix-blend-mode: normal;
+}
+.buysmall {
+  position: absolute;
+  width: max-content;
+  height: 95px;
+  left: 96px;
+  top: 329px;
+
+  font-family: "Fahkwang";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 32px;
+  line-height: 27px;
+
+  /* or 84% */
+
+  color: #ffffff;
+}
+
+.exploreBtn {
+  position: absolute;
+  width: 335px;
+  height: 65px;
+  left: 96px;
+  top: 476px;
+
+  background: #2ca0e2;
+  border-radius: 20px;
+  border: 0ch;
+  font-family: "ABeeZee";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 56px;
+
+  /* identical to box height, or 175% */
+  letter-spacing: 0.133956px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1400px) {
+  .landing_page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #01204c;
+  }
+  .howDiv {
+    position: absolute;
+    width: 100vw;
+    height: 180px;
+    left: 96px;
+    bottom: 3rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .exploreBtn {
+    font-size: large;
+    top: 350px;
+    width: 250px;
+    height: 55px;
+  }
+  .Discover {
+    position: absolute;
+    width: max-content;
+    height: 118px;
+    left: 96px;
+    top: 80px;
+
+    font-family: "ABeeZee";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 45px;
+    line-height: 56px;
+    text-transform: capitalize;
+    background: linear-gradient(180deg, #ffffff 0%, #b31ccf 149.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+
+    mix-blend-mode: normal;
+
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #0525dd,
+        1px 8px 1px #0525dd,
+        1px 9px 1px #0425dd,
+        1px 10px 1px #0ac5e6,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+  }
+  .buysmall {
+    position: absolute;
+    width: max-content;
+    height: 95px;
+    left: 96px;
+    top: 230px;
+
+    font-family: "Fahkwang";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 27px;
+
+    /* or 84% */
+
+    color: #ffffff;
+  }
+  .howBigFont {
+    position: absolute;
+    width: max-content;
+    left: 10px;
+    top: 10px;
+
+    font-family: "ABeeZee";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 56px;
+
+    /* or 116% */
+    letter-spacing: 0.133956px;
+    text-transform: capitalize;
+
+    color: #f9eeee;
+
+    mix-blend-mode: normal;
+  }
+
+  .howsmallFont {
+    position: absolute;
+    width: 1716px;
+    left: 10px;
+    top: 60px;
+
+    font-family: "ABeeZee";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 30px;
+
+    /* or 233% */
+    letter-spacing: 0.133956px;
+    text-transform: capitalize;
+
+    color: #ffffff;
+  }
+}

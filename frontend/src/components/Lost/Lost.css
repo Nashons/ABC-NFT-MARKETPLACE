@@ -1,0 +1,64 @@
+/** @format */
+
+.lost {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: #0905f1;
+}
+
+.fourfour {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  top: 45%;
+}
+
+.pagenotfound {
+  position: relative;
+  top: 10px;
+  width: max-content;
+  height: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: rgb(243, 245, 247);
+  font-weight: 600;
+}
+
+.spiral1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 3px;
+  top: 100px;
+  transform: rotate(50deg);
+}
+
+.spiral2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  right: 260px;
+  top: 140px;
+  transform: rotate(900deg);
+}
+
+.backBtn {
+  position: relative;
+  width: 200px;
+  height: 60px;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  top: 30px;
+  background-color: #0960da;
+  color: aliceblue;
+  font-family: "ABeeZee";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  border: 0ch;
+  border-radius: 20px;
+}

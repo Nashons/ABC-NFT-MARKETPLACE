@@ -1,0 +1,232 @@
+/** @format */
+
+nav {
+  position: fixed;
+  width: 1920px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+
+  background: #01204c;
+  border-bottom: 1px solid #fffcfc;
+}
+
+a {
+  color: #f1fafc;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 5px solid #0669fc;
+  color: #0669fc;
+}
+
+.active {
+  border-bottom: 5px solid #0669fc;
+  color: #0669fc;
+}
+
+.coinbaselogo {
+  position: relative;
+  width: max-content;
+  height: 29px;
+  left: 33px;
+  top: 36px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* identical to box height */
+
+  color: #f1fafc;
+}
+
+.searchbar {
+  position: relative;
+  width: 532px;
+  height: 39px;
+  left: 450px;
+  background: #f1fafc;
+  border-radius: 10px;
+  text-align: center;
+  border: 0ch;
+  font-size: 15px;
+  outline: 0ch;
+}
+
+.collectionBtn {
+  position: absolute;
+  width: max-content;
+  height: 29px;
+  left: 1100px;
+  top: 36px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+  background: transparent;
+  border: 0ch;
+
+  /* identical to box height */
+
+  color: #f1fafc;
+}
+
+.createNftsBtn {
+  position: absolute;
+  width: max-content;
+  height: 29px;
+  left: 1350px;
+  top: 36px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+  background: transparent;
+  border: 0ch;
+}
+
+.connectWalletBtn {
+  position: absolute;
+  width: 270px;
+  height: 38px;
+  right: 20px;
+  top: 32px;
+  background: #106dee;
+  border: 0ch;
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1400px) {
+  .searchbar {
+    display: none;
+  }
+  nav {
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #01204c;
+    border-bottom: 1px solid #fffcfc;
+  }
+
+  .createNftsBtn {
+    position: absolute;
+    width: max-content;
+    height: 29px;
+    left: 800px;
+    top: 36px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* identical to box height */
+
+    color: #ffffff;
+    background: transparent;
+    border: 0ch;
+  }
+  .collectionBtn {
+    position: absolute;
+    width: max-content;
+    height: 29px;
+    left: 550px;
+    top: 36px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    background: transparent;
+    border: 0ch;
+
+    /* identical to box height */
+
+    color: #f1fafc;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .connectWalletBtn {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    right: 2px;
+    top: 5px;
+    background: #106dee;
+    border: 0ch;
+    border-radius: 20px;
+    color: white;
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .coinbaselogo {
+    position: relative;
+    width: max-content;
+    height: 10px;
+    left: 3px;
+    top: 3px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+
+    /* identical to box height */
+
+    color: #f1fafc;
+  }
+
+  .createNftsBtn {
+    position: absolute;
+    width: max-content;
+    height: 29px;
+    left: 3px;
+    top: 40px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+
+    /* identical to box height */
+
+    color: #ffffff;
+    background: transparent;
+    border: 0ch;
+  }
+
+  .collectionBtn {
+    position: absolute;
+    width: max-content;
+    height: 29px;
+    left: 220px;
+    top: 40px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    background: transparent;
+    border: 0ch;
+
+    /* identical to box height */
+
+    color: #f1fafc;
+  }
+}
